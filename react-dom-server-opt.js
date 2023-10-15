@@ -11,8 +11,8 @@
 var ba = require("util"),
   ca = require("crypto"),
   fa = require("async_hooks"),
-  ha = require("./react"),
-  ia = require("./react-dom");
+  ha = require("react"),
+  ia = require("react-dom");
 function na(a) {
   "function" === typeof a.flush && a.flush();
 }

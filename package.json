@@ -2,6 +2,10 @@
   "license": "MIT",
   "scripts": {
     "bench": "oha http://localhost:9080 -z 5s -c 20",
-    "start": "node start.js"
+    "start": "NODE_ENV=production node start.js"
+  },
+  "dependencies": {
+    "react": "^18.3.0-canary-09fbee89d-20231013",
+    "react-dom": "^18.3.0-canary-09fbee89d-20231013"
   }
 }
