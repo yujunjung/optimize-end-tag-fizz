@@ -1,0 +1,7 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "bench": "oha http://localhost:9080 -z 5s -c 20",
+    "start": "node start.js"
+  }
+}
